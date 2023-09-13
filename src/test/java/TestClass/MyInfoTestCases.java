@@ -17,6 +17,8 @@ import page.object.models.LoginPageObjects;
 import page.object.models.MyInfoObjects;
 
 public class MyInfoTestCases extends BaseClass {
+	
+	//sample comment
 
 	@Test
 	public void fillPersonalDetails() throws IOException, InterruptedException, AWTException {
