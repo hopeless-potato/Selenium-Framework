@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-15T09:12:06 IST" name="Suite" finished-at="2023-09-15T09:13:34 IST" duration-ms="88220">
+  <suite started-at="2023-09-15T18:19:31 IST" name="Suite" finished-at="2023-09-15T18:21:11 IST" duration-ms="100630">
     <groups>
     </groups>
-    <test started-at="2023-09-15T09:12:06 IST" name="Test" finished-at="2023-09-15T09:13:34 IST" duration-ms="88220">
+    <test started-at="2023-09-15T18:19:31 IST" name="Test" finished-at="2023-09-15T18:21:11 IST" duration-ms="100630">
       <class name="TestClass.LoginTestCases">
-        <test-method is-config="true" signature="urlLaunch()[pri:0, instance:TestClass.LoginTestCases@6302bbb1]" started-at="2023-09-15T09:12:06 IST" name="urlLaunch" finished-at="2023-09-15T09:12:20 IST" duration-ms="14163" status="PASS">
+        <test-method is-config="true" signature="urlLaunch()[pri:0, instance:TestClass.LoginTestCases@77888435]" started-at="2023-09-15T18:19:31 IST" name="urlLaunch" finished-at="2023-09-15T18:19:54 IST" duration-ms="22517" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlLaunch -->
-        <test-method signature="verifyValidLogin()[pri:0, instance:TestClass.LoginTestCases@6302bbb1]" started-at="2023-09-15T09:12:20 IST" name="verifyValidLogin" finished-at="2023-09-15T09:12:25 IST" duration-ms="5329" status="PASS">
+        <test-method signature="verifyValidLogin()[pri:0, instance:TestClass.LoginTestCases@77888435]" started-at="2023-09-15T18:19:54 IST" name="verifyValidLogin" finished-at="2023-09-15T18:19:57 IST" duration-ms="3731" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyValidLogin -->
-        <test-method is-config="true" signature="urlLaunch()[pri:0, instance:TestClass.LoginTestCases@6302bbb1]" started-at="2023-09-15T09:12:25 IST" name="urlLaunch" finished-at="2023-09-15T09:12:32 IST" duration-ms="6191" status="PASS">
+        <test-method is-config="true" signature="urlLaunch()[pri:0, instance:TestClass.LoginTestCases@77888435]" started-at="2023-09-15T18:19:58 IST" name="urlLaunch" finished-at="2023-09-15T18:20:07 IST" duration-ms="9661" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlLaunch -->
-        <test-method signature="verifyInvalidLogin()[pri:1, instance:TestClass.LoginTestCases@6302bbb1]" started-at="2023-09-15T09:12:32 IST" name="verifyInvalidLogin" finished-at="2023-09-15T09:12:37 IST" duration-ms="5803" status="PASS">
+        <test-method signature="verifyInvalidLogin()[pri:1, instance:TestClass.LoginTestCases@77888435]" started-at="2023-09-15T18:20:07 IST" name="verifyInvalidLogin" finished-at="2023-09-15T18:20:13 IST" duration-ms="5908" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyInvalidLogin -->
       </class> <!-- TestClass.LoginTestCases -->
       <class name="TestClass.MyInfoTestCases">
-        <test-method is-config="true" signature="urlLaunch()[pri:0, instance:TestClass.MyInfoTestCases@2b71e916]" started-at="2023-09-15T09:12:37 IST" name="urlLaunch" finished-at="2023-09-15T09:12:44 IST" duration-ms="6155" status="PASS">
+        <test-method is-config="true" signature="urlLaunch()[pri:0, instance:TestClass.MyInfoTestCases@38425407]" started-at="2023-09-15T18:20:13 IST" name="urlLaunch" finished-at="2023-09-15T18:20:25 IST" duration-ms="11599" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlLaunch -->
-        <test-method signature="fillPersonalDetails()[pri:0, instance:TestClass.MyInfoTestCases@2b71e916]" started-at="2023-09-15T09:12:44 IST" name="fillPersonalDetails" finished-at="2023-09-15T09:13:34 IST" duration-ms="50421" status="PASS">
+        <test-method signature="fillPersonalDetails()[pri:0, instance:TestClass.MyInfoTestCases@38425407]" started-at="2023-09-15T18:20:25 IST" name="fillPersonalDetails" finished-at="2023-09-15T18:21:11 IST" duration-ms="46799" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillPersonalDetails -->
