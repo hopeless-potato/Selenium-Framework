@@ -6,7 +6,6 @@ import java.awt.Toolkit;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.io.IOException;
-import java.time.Duration;
 
 import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
