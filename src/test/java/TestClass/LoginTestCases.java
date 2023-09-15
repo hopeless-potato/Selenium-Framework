@@ -1,7 +1,6 @@
 package TestClass;
 
 import java.io.IOException;
-import java.time.Duration;
 
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -19,16 +18,16 @@ public class LoginTestCases extends BaseClass {
 	@Test
 	public void verifyValidLogin() throws IOException, InterruptedException {
 		
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		
-        //Thread.sleep(1000);
+        Thread.sleep(1000);
 		LoginPageObjects lpo = new LoginPageObjects(driver);
 
 		lpo.enterUsername().sendKeys(Constants.username);
 		lpo.enterPassword().sendKeys(Constants.validPassowrd);
 		lpo.clickLogin().click();
 		
-		//Thread.sleep(2000);
+		Thread.sleep(2000);
 		
 		CommonMethods.handleAssertion(Constants.validLoginURL, driver.getCurrentUrl());
 	}
@@ -36,14 +35,14 @@ public class LoginTestCases extends BaseClass {
 	@Test(priority=1)
 	public void verifyInvalidLogin() throws IOException, InterruptedException {
 		
-       // Thread.sleep(2000);  
+        Thread.sleep(2000);  
 		LoginPageObjects lpo = new LoginPageObjects(driver);
 
 		lpo.enterUsername().sendKeys(Constants.username);
 		lpo.enterPassword().sendKeys(Constants.invalidPassword);
 		lpo.clickLogin().click();
 		
-		//Thread.sleep(2000);
+		Thread.sleep(2000);
 		
 		CommonMethods.handleAssertion(lpo.getInvalidLoginText().getText(), Constants.InvalidErrorText);
 	}
