@@ -13,6 +13,7 @@ import page.object.models.LoginPageObjects;
 public class LoginTestCases extends BaseClass {
 	public SoftAssert sa;
     //for demo purpose
+	//random line
 	
 	@Test
 	public void verifyValidLogin() throws IOException, InterruptedException {
